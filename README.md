@@ -29,6 +29,8 @@ https://nyosegawa.com/posts/claude-code-statusline-rate-limits/ こちらを参�
 :
 ## Setup
 ```
+~/.claude/settings.jsonに`statusline`を追加
+
 "statusLine": {
   "type": "command",
   "command": "{your_path}/statusline.py"
